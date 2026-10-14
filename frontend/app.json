@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "SocialConnect",
+    "slug": "social-connect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.socialconnect.app"
+    },
+    "android": {
+      "package": "com.socialconnect.app",
+      "permissions": [
+        "INTERNET",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [],
+    "extra": {
+      "eas": {
+        "projectId": "d6b427f6-82f7-4cd4-a033-7a5a033752e1"
+      }
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "icon": "./assets/icon.png"
+  }
+}
